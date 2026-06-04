@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .invisibilidad {
+            display: none; /* Desaparece por completo y no ocupa espacio */
+        }
+
+        .oculto {
+            visibility: hidden; /* Se oculta, pero sigue ocupando su espacio en el diseño */
+        }
+
+        /* Estilos visuales para el ejemplo */
+        div, p {
+            background-color: lightcoral;
+            border: 2px solid red;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div>Elemento 1 (Normal)</div>
+    <div class="invisibilidad">Elemento 2 (display: none)</div>
+    <div>Elemento 3 (Normal)</div>
+
+    <hr>
+
+    <p>Párrafo 1 (Normal)</p>
+    <p class="oculto">Párrafo 2 (visibility: hidden)</p>
+    <p>Párrafo 3 (Normal)</p>
+
+</body>
+</html>
